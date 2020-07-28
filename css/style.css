@@ -355,14 +355,10 @@ img {
 }
 
 .studio {
-    padding-top: 30px;
-    padding-bottom: 30px;
     margin-right: 50px;
 }
 
 .portfolio {
-    padding-top: 30px;
-    padding-bottom: 30px;
     margin-right: 43px;
 }
 
@@ -751,31 +747,47 @@ img {
     border-bottom: 1px solid #ececec;
 }
 
+
 .studio-line::after {
+    position: absolute;
     display: block;
     background-color: var(--accent-color);
     width: 47px;
     height: 4px;
     content: "";
-    margin-top: 32px;
+    bottom: 0;
+    
 }
 
 .portfolio-line:after {
+    position: absolute;
     display: block;
     background-color: var(--accent-color);
     width: 77px;
     height: 4px;
     content: "";
-    margin-top: 32px;
+    bottom: 0;
+   
+}
+
+.portfolio-line,
+.studio-line {
+    padding-bottom: 25px;
 }
 
 .social-icon {
+    position: absolute;
     display: block;
     width: 44px;
     height: 44px;
     padding: 12px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.portfolio-line,
+.studio-line {
+    position: relative;
 }
 
 .social-link-item:hover .social-icon,
