@@ -69,11 +69,6 @@ body {
     align-items: center;
 }
 
-.contacts-container .mail-tel-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .link-nav:hover, 
 .link-nav:focus,
 .mail-tel-text:hover,
@@ -360,11 +355,6 @@ img {
 
 .portfolio {
     margin-right: 43px;
-}
-
-.contant-header {
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 
@@ -776,7 +766,6 @@ img {
 }
 
 .social-icon {
-    position: absolute;
     display: block;
     width: 44px;
     height: 44px;
@@ -892,4 +881,9 @@ img {
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
     bottom: 0;
+}
+
+:hover,
+:focus {
+    transition: all 0.25s linear;
 }
