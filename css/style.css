@@ -537,9 +537,6 @@ img {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
 }
 
 .flex-element-item {
@@ -547,6 +544,9 @@ img {
     padding-right: 24px;
     padding-bottom: 20px;
     padding-left: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .flex-element:hover  {
@@ -628,6 +628,7 @@ img {
 
 .podval-icon {
     padding: 12px;
+    transition: all 0.25s linear;
 }
 .podval-icon:not(:last-child) {
     margin-right: 10px;
@@ -772,6 +773,7 @@ img {
     padding: 12px;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.25s linear;
 }
 
 .portfolio-line,
@@ -791,6 +793,7 @@ img {
 
 .icon {
     fill: #AFB1B8;
+    transition: all 0.25s linear;
 }
 
 .icon-client:hover,
@@ -800,6 +803,7 @@ img {
 
 .client-icon-logo {
     fill: #AFB1B8;
+    transition: all 0.25s linear;
 }
 
 .icon-client:hover .client-icon-logo,
